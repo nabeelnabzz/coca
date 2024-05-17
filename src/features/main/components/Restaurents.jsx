@@ -37,7 +37,7 @@ const Restaurents = () => {
       <p className="text-center font-medium text-[16px]">
         Trusted by over 50 thousand restaurants in 10+ countries
       </p>
-      <div className="flex justify-around items-center flex-wrap mt-10">
+      <div className="flex justify-around gap-10 items-center flex-wrap mt-10">
         {restuarents.map((val, index) => {
           return <img src={val.src} alt={val.alt} key={index} />;
         })}
