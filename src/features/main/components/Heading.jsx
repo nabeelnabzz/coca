@@ -1,6 +1,8 @@
-const Heading = ({ label }) => {
+const Heading = ({ label, color, className }) => {
   return (
-    <h1 className="text-[62px] text-[#19191C] font-medium max-w-[760px] leading-[76px]">
+    <h1
+      className={`text-[30px] sm:text-[62px] p-2 ${color} ${className} font-medium sm:leading-[76px]`}
+    >
       {label}
     </h1>
   );

@@ -33,7 +33,7 @@ const Restaurents = () => {
     },
   ];
   return (
-    <div className="mt-5">
+    <div className="mt-5 p-5">
       <p className="text-center font-medium text-[16px]">
         Trusted by over 50 thousand restaurants in 10+ countries
       </p>
